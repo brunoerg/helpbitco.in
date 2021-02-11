@@ -22,15 +22,15 @@
         </div>
         <div
           class="flex xl:flex-row flex-col items-center font-medium text-gray-900 dark:text-white pb-2 mb-2 xl:border-b border-gray-200 border-opacity-75 dark:border-gray-700 w-full">
-          Issues: 900
+          Issues: {{ p.open_issues }}
         </div>
         <div
           class="flex xl:flex-row flex-col items-center font-medium text-gray-900 dark:text-white pb-2 mb-2 xl:border-b border-gray-200 border-opacity-75 dark:border-gray-700 w-full">
-          Pull Requests: 1000
+          {{ p.description }}
         </div>
         <div class="flex items-center w-full">
           <div class="text-xs py-1 px-2 leading-none dark:bg-gray-900 rounded-md" :class="categories[projects.find(x => x.repo === p.name)]">
-          <!--{{ projects.find(x => x.repo === p.name)['type'] }}-->
+            <!--{{ projects.find(x => x.repo === p.name)['type'] }}-->
           </div>
           <div class="ml-auto text-xs text-gray-500">{{ p.language }}</div>
         </div>
