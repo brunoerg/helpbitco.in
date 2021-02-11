@@ -30,7 +30,7 @@
         </div>
         <div class="flex items-center w-full">
           <div class="text-xs py-1 px-2 leading-none dark:bg-gray-900 rounded-md" :class="categories[projects.find(x => x.repo === p.name)]">
-            <!--{{ projects.find(x => x.repo === p.name)['type'] }}-->
+            {{ projectType(p.name) }}
           </div>
           <div class="ml-auto text-xs text-gray-500">{{ p.language }}</div>
         </div>
@@ -48,6 +48,14 @@ export default {
   computed: {
     project_details() {
       return this.$store.state.projects
+    }
+  },
+
+  methods: {
+    projectType(name) {
+      console.log(name)
+      const project = this.projects.find(x => x.repo === name.toLowerCase())
+      return project['type']
     }
   },
 
