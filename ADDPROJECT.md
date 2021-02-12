@@ -6,4 +6,4 @@
 
 * Submit a Pull Request
 
-Please, we will only accept Bitcoin-related projects.
+Pay attention, we will only accept Bitcoin-related projects.
