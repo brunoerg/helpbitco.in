@@ -2,6 +2,7 @@
   <div
     class="xl:w-72 w-48 flex-shrink-0 border-r border-gray-200 dark:border-gray-800 h-full overflow-y-auto lg:block hidden p-5 scroll">
     <div class="text-xs text-gray-400 tracking-wider">PROJECTS</div>
+    <!--
     <div class="relative mt-2">
       <input type="text"
         class="pl-8 h-9 bg-transparent border border-gray-300 dark:border-gray-700 dark:text-white w-full rounded-md text-sm"
@@ -12,7 +13,7 @@
         <circle cx="11" cy="11" r="8"></circle>
         <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
       </svg>
-    </div>
+    </div>-->
     <div class="space-y-4 mt-3">
       <button class="bg-white p-3 w-full flex flex-col rounded-md dark:bg-gray-800 shadow" v-for="p in project_details"
         v-bind:key="p.name">
