@@ -1,4 +1,6 @@
-# front
+# Helpbitco.in
+
+Follow the issues and pull requests of many bitcoin projects at the same time.
 
 ## Project setup
 ```
