@@ -23,10 +23,6 @@
         </div>
         <div
           class="flex xl:flex-row flex-col items-center font-medium text-gray-900 dark:text-white pb-2 mb-2 xl:border-b border-gray-200 border-opacity-75 dark:border-gray-700 w-full">
-          Issues: {{ p.open_issues }}
-        </div>
-        <div
-          class="flex xl:flex-row flex-col items-center font-medium text-gray-900 dark:text-white pb-2 mb-2 xl:border-b border-gray-200 border-opacity-75 dark:border-gray-700 w-full">
           {{ p.description }}
         </div>
         <div class="flex items-center w-full">
