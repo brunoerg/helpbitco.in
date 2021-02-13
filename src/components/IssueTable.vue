@@ -10,8 +10,6 @@
                     Labels</th>
                 <th class="font-normal p-3  border-b dark:border-gray-800 hidden lg:table-cell">
                     Opened by</th>
-                <th class="font-normal p-3  border-b dark:border-gray-800 hidden lg:table-cell">
-                    Actions</th>
             </tr>
         </thead>
         <tbody class="text-black dark:text-gray-100">
@@ -41,11 +39,6 @@
                         <img :src="r.user.avatar_url" class="w-7 h-7 p-1 mr-2.5 rounded-lg border border-gray-200 dark:border-gray-800">
                         {{ r.user.login }}
                     </div>
-                </td>
-                <td
-                    class="w-full lg:w-auto p-3 text-left border-b border-gray-200 dark:border-gray-800  block lg:table-cell relative lg:static">
-                    <a href="#" class="text-blue-400 hover:text-blue-600 underline">Edit</a>
-                    <a href="#" class="text-blue-400 hover:text-blue-600 underline pl-6">Remove</a>
                 </td>
             </tr>
         </tbody>
