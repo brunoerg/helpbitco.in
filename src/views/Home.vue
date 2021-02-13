@@ -11,8 +11,7 @@
                       'cursor-pointer h-full border-b-2 border-transparent inline-flex items-center mr-8' : !pullrequest }">Pull Requests</a>
         </div>
         <div class="ml-auto flex items-center space-x-7">
-          <button class="h-8 px-3 rounded-md shadow text-white bg-blue-500">Bounty</button>
-          <button class="h-8 px-3 rounded-md shadow text-white bg-blue-500">Deposit</button>
+          <button onClick="window.location='https://github.com/brunoerg/helpbitco.in/blob/main/ADDPROJECT.md'" class="h-8 px-3 rounded-md shadow text-white bg-blue-500">Add a project</button>
         </div>
       </div>
       <div class="flex-grow flex overflow-x-hidden">
@@ -52,7 +51,6 @@
       </div>
     </div>
   </div>
-
 </template>
 
 <style>
