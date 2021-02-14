@@ -50,7 +50,6 @@ export default {
 
   methods: {
     projectType(name) {
-      console.log(name)
       const project = this.projects.find(x => x.repo === name.toLowerCase())
       return project['type']
     }
