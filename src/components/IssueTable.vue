@@ -17,9 +17,8 @@
                 class="dark:bg-gray-900 lg:hover:bg-gray-600 flex lg:table-row flex-row lg:flex-row flex-wrap lg:flex-no-wrap mb-10 lg:mb-0 cursor-pointer"
                 v-on:click="openPage(r.html_url)">
                 <td
-                    class="w-full lg:w-auto p-3 text-left border-b border-gray-200 dark:border-gray-800 block lg:table-cell relative lg:static">
+                    class="w-full lg:w-auto p-3 text-left font-bold border-b border-gray-200 dark:border-gray-800 block lg:table-cell relative lg:static">
                     <div class="flex items-center">
-                        
                         {{ r.repository_url.split('https://api.github.com/repos/')[1] }}
                     </div>
                 </td>
