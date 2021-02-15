@@ -63,7 +63,7 @@
                         </div>
                     </td>
                     <td
-                        class="w-full lg:w-auto p-3 text-left border-b border-gray-200 dark:border-gray-800  block lg:table-cell relative lg:static">
+                        class="w-full lg:w-auto p-3 text-left border-b md:border-gray-800 border-blue-800 block lg:table-cell relative lg:static">
                         <button @click="openBounty(r.user.login)" class="h-10 px-3 rounded-md shadow text-blue-400 hover:text-blue-600 bg-black">Bounty ⚡</button>
                     </td>
                 </tr>

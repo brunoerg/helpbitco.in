@@ -33,7 +33,7 @@
                     </div>
                 </td>
                 <td
-                    class="w-full lg:w-auto p-3 text-left border-b border-gray-200 dark:border-gray-800  block lg:table-cell relative lg:static">
+                    class="w-full lg:w-auto p-3 text-left border-b md:border-gray-800 border-blue-800  block lg:table-cell relative lg:static">
                     <div class="flex items-center">
                         <img :src="r.user.avatar_url" class="w-7 h-7 p-1 mr-2.5 rounded-lg border border-gray-200 dark:border-gray-800">
                         {{ r.user.login }}
