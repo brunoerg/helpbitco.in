@@ -12,6 +12,7 @@
         </div>
         <div class="ml-auto flex items-center space-x-7">
           <button onClick="window.location='https://github.com/brunoerg/helpbitco.in/blob/main/ADDPROJECT.md'" class="h-8 px-3 rounded-md shadow text-white bg-blue-500">Add a project</button>
+           <button onClick="window.location='https://github.com/brunoerg/helpbitco.in/blob/main/DEV.md'" class="h-8 px-3 rounded-md shadow text-white bg-blue-500">I am dev</button>
         </div>
       </div>
       <div class="flex-grow flex overflow-x-hidden">
@@ -23,6 +24,7 @@
           <div v-else>
             <IssueTable />
           </div>
+          <!--
           <div class="flex w-full mt-5 space-x-2 justify-end">
             <button
               class="inline-flex items-center h-8 w-8 justify-center text-gray-400 rounded-md shadow border border-gray-200 dark:border-gray-800 leading-none">
@@ -46,7 +48,7 @@
                 <polyline points="9 18 15 12 9 6"></polyline>
               </svg>
             </button>
-          </div>
+          </div>-->
         </div>
       </div>
     </div>
