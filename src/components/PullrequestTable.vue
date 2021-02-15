@@ -101,9 +101,6 @@
                 window.open(url, '_blank')
             },
             openBounty(dev) {
-                let element = this.$refs['bounty']
-                element.scrollIntoView({ behavior: 'smooth' })
-
                 if (devs.filter(x => x.user === dev).length > 0) {
                     this.dev = dev
                     this.bounty = true
