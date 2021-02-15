@@ -9,9 +9,13 @@
           <a v-on:click="pullrequest = true"
             :class="{ 'cursor-pointer h-full border-b-2 border-blue-500 text-blue-500 dark:text-white dark:border-white inline-flex mr-8 items-center' : pullrequest, 
                       'cursor-pointer h-full border-b-2 border-transparent inline-flex items-center mr-8' : !pullrequest }">Pull Requests</a>
+           <div class="visible md:invisible flex">           
+            <button onClick="window.location='https://github.com/brunoerg/helpbitco.in/blob/main/ADDPROJECT.md'" class="h-2/3 m-auto mr-2 rounded-md shadow text-white bg-blue-500">Add a project</button>
+            <button onClick="window.location='https://github.com/brunoerg/helpbitco.in/blob/main/DEV.md'" class="h-2/3 m-auto rounded-md shadow text-white bg-blue-500">I am a dev</button>  
+           </div>
         </div>
-        <div class="ml-auto flex items-center space-x-7">
-          <button onClick="window.location='https://github.com/brunoerg/helpbitco.in/blob/main/ADDPROJECT.md'" class="h-8 px-3 rounded-md shadow text-white bg-blue-500">Add a project</button>
+        <div class="ml-auto mt-4 flex items-center space-x-7 hidden sm:block">
+           <button onClick="window.location='https://github.com/brunoerg/helpbitco.in/blob/main/ADDPROJECT.md'" class="h-8 px-3 rounded-md shadow text-white bg-blue-500">Add a project</button>
            <button onClick="window.location='https://github.com/brunoerg/helpbitco.in/blob/main/DEV.md'" class="h-8 px-3 rounded-md shadow text-white bg-blue-500">I am dev</button>
         </div>
       </div>
